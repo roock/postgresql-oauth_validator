@@ -97,3 +97,5 @@ jobs:
             Gtz3cydIohvNO9d90+29h0eGEDYti7j7maHkBKUAwlcPvMg5m3Y=
             =DA1T
             -----END PGP PUBLIC KEY BLOCK-----
+          setup-hook:
+            apt-get update && apt-get install -y ca-certificates devscripts
