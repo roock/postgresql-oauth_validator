@@ -1,0 +1,20 @@
+Source: postgresql-oauth-validator
+Section: database
+Priority: optional
+Maintainer: Roman Pertl <roman@pertl.org>
+Build-Depends: debhelper-compat (= 13), postgresql-server-dev-all (>= 18)
+Standards-Version: 4.6.2
+Homepage: https://github.com/roock/postgresql-oauth_validator
+Vcs-Browser: https://github.com/roock/postgresql-oauth_validator
+Vcs-Git: https://github.com/roock/postgresql-oauth_validator.git
+
+Package: postgresql-18-oauth-validator
+Architecture: any
+Depends: postgresql-18, ${shlibs:Depends}, ${misc:Depends}, 
+Description: OAuth 2.0 token validator for PostgreSQL
+ This module implements a simple OAuth 2.0 token validator for built-in
+ support of the Device Authorization Flow. The validator performs minimal
+ validation by extracting the 'sub' (subject) and 'scope' fields from the
+ JWT payload, comparing the token's scopes with those required by the
+ pg_hba.conf entry, and mapping the authentication identity 'sub' to a
+ database role using pg_ident.conf.
