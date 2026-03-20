@@ -18,7 +18,7 @@ jobs:
           buildpackage-opts: --build=binary --no-sign
           host-arch: ${{ matrix.arch }}
           extra-repos: |
-            deb https://packages.adoptium.net/artifactory/deb ${{ matrix.suite }} main
+            deb https://apt.postgresql.org/pub/repos/apt ${{ matrix.suite }}-pgdg main
           extra-repo-keys: |
             -----BEGIN PGP PUBLIC KEY BLOCK-----
 
