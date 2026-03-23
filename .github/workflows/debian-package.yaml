@@ -6,7 +6,7 @@ jobs:
     strategy:
       matrix:
         suite:
-        #   - bookworm
+          - bookworm
           - trixie
         arch: [amd64, arm64]
     steps:
