@@ -5,9 +5,16 @@ jobs:
     runs-on: ${{ (matrix.arch == 'armhf' || matrix.arch == 'arm64') && 'ubuntu-24.04-arm' || 'ubuntu-latest' }}
     strategy:
       matrix:
-        suite:
-          - bookworm
-          - trixie
+        distro:
+          - name: Debian 12
+            codename: bookworm
+            image: debian:bookworm-slim      
+          - name: Debian 13
+            codename: trixie
+            image: debian:trixie-slim
+          - name: Ubuntu 24.04
+            codename: noble
+            image: ubuntu:noble
         arch: [amd64, arm64]
     steps:
       - uses: actions/checkout@v4
@@ -15,10 +22,11 @@ jobs:
         env:
           DEB_BUILD_OPTIONS: noautodbgsym
         with:
+          docker-image: ${{ matrix.distro.image }}          
           buildpackage-opts: --build=binary --no-sign
           host-arch: ${{ matrix.arch }}
           extra-repos: |
-            deb https://apt.postgresql.org/pub/repos/apt ${{ matrix.suite }}-pgdg main
+            deb https://apt.postgresql.org/pub/repos/apt ${{ matrix.distro.codename }}-pgdg main
           extra-repo-keys: |
             -----BEGIN PGP PUBLIC KEY BLOCK-----
 
