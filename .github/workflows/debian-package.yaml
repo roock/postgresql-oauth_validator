@@ -23,7 +23,7 @@ jobs:
           DEB_BUILD_OPTIONS: noautodbgsym
         with:
           docker-image: ${{ matrix.distro.image }}          
-          before-build-hook: dch -D ${{ matrix.distro.codename }} --local ~${{ matrix.distro.codename }} ""
+          before-build-hook: dch -D ${{ matrix.distro.codename }} --local ~${{ matrix.distro.codename }}+git${{ github.sha::0:7 }} ""
           buildpackage-opts: --build=binary --no-sign
           host-arch: ${{ matrix.arch }}
           extra-repos: |
