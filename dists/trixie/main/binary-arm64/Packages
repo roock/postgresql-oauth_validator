@@ -1,0 +1,23 @@
+Package: postgresql-18-oauth-validator
+Source: postgresql-oauth-validator
+Version: 1.0-1~trixie1
+Architecture: arm64
+Maintainer: Roman Pertl <roman@pertl.org>
+Installed-Size: 98
+Depends: postgresql-18, libc6 (>= 2.17)
+Homepage: https://github.com/roock/postgresql-oauth_validator
+Priority: optional
+Section: database
+Filename: pool/main/p/postgresql-oauth-validator/postgresql-18-oauth-validator_1.0-1~trixie1_arm64.deb
+Size: 14480
+SHA256: 69d896da3c509b3a3425592e06f134f494f227d5cceb63e7d8323132b384b2d8
+SHA1: a77a838642c35291ff7f87107231f37d8e5d31ac
+MD5sum: 2e89cdea6f215531054fde533d0a41ad
+Description: OAuth 2.0 token validator for PostgreSQL
+ This module implements a simple OAuth 2.0 token validator for built-in
+ support of the Device Authorization Flow. The validator performs minimal
+ validation by extracting the 'sub' (subject) and 'scope' fields from the
+ JWT payload, comparing the token's scopes with those required by the
+ pg_hba.conf entry, and mapping the authentication identity 'sub' to a
+ database role using pg_ident.conf.
+

@@ -4,35 +4,35 @@ Hash: SHA512
 Origin: postgresql-oauth_validator
 Label: postgresql-oauth_validator
 Codename: noble
-Date: Mon, 23 Mar 2026 11:42:26 UTC
+Date: Mon, 23 Mar 2026 12:33:23 UTC
 Architectures: amd64 arm64
 Components: main
 Description: Postgresql oauth validator repository for Debian and Ubuntu
 MD5Sum:
- d41d8cd98f00b204e9800998ecf8427e 0 main/binary-amd64/Packages
- 7029066c27ac6f5ef18d660d5741979a 20 main/binary-amd64/Packages.gz
+ 6849e3002b1ef5ece08ad6d7533655ae 1042 main/binary-amd64/Packages
+ 8eb830e401654b2c91126abc6053c4ab 635 main/binary-amd64/Packages.gz
  b252e0c8261e3444c58b5661481bede0 178 main/binary-amd64/Release
- d41d8cd98f00b204e9800998ecf8427e 0 main/binary-arm64/Packages
- 7029066c27ac6f5ef18d660d5741979a 20 main/binary-arm64/Packages.gz
+ 7e97f807348b37e306838df4c3becb83 1043 main/binary-arm64/Packages
+ 7f5c5d0705beaaae242b22398af7b03a 633 main/binary-arm64/Packages.gz
  006e43c9d646ba07fd4ffc157c7c2377 178 main/binary-arm64/Release
 SHA1:
- da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/binary-amd64/Packages
- 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/binary-amd64/Packages.gz
+ 47421bcc4f9b897daf1d845ce828a3e786418f37 1042 main/binary-amd64/Packages
+ b317366025d4f6444c65754c72755a5e0ab2c5bf 635 main/binary-amd64/Packages.gz
  3e3cb7ecdf69c55696d1655b38b09f1a414231bb 178 main/binary-amd64/Release
- da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/binary-arm64/Packages
- 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/binary-arm64/Packages.gz
+ ffb9e786000db297309b85863061aa9a96f02de6 1043 main/binary-arm64/Packages
+ 4ba21d1dff4ef3d4b2c064aa35f8115e4915970f 633 main/binary-arm64/Packages.gz
  0c21a5548e5b1259d7b6cab8008ff107ef997a83 178 main/binary-arm64/Release
 SHA256:
- e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/binary-amd64/Packages
- 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/binary-amd64/Packages.gz
+ dcf796deb7757587fe932cc187868243cd04a4b618ca8af9bb99db55d0007a1a 1042 main/binary-amd64/Packages
+ c93a40a7d56d9285f8aee0a1437f0d9632a40b9d64bf15bede06534c57b855b0 635 main/binary-amd64/Packages.gz
  6fa30b38bc9ec5db6dbd75b2c8a57aa0e9bb5efd1b2f15211d73a4667f8cafe8 178 main/binary-amd64/Release
- e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/binary-arm64/Packages
- 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/binary-arm64/Packages.gz
+ 4813b11248750515c2b9c83efe24e1d5f932824707fa42707b326e3cfa8d55a0 1043 main/binary-arm64/Packages
+ d90383789073049c3eaae5c26c5badbff7f529bb3ce7cf2acf033dabff8e4e33 633 main/binary-arm64/Packages.gz
  15d08a182f0e33a2ab57f0687bb18b63d61cf651afc4074989a2007cb6b7dd78 178 main/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYKAB0WIQQM/wpOLkP2d1yk6IHAz9Ma0hWP1wUCacEnIgAKCRDAz9Ma0hWP
-13V8AP964UoUTogtGW5/OrwOcyglr11pVr+p6vDfQrUhJXyl4wEAmOzUbu7llGvo
-4roRwm7jTamNIjNXcwYATdR24UQfbw8=
-=N5JR
+iHUEARYKAB0WIQQM/wpOLkP2d1yk6IHAz9Ma0hWP1wUCacEzEwAKCRDAz9Ma0hWP
+1ycoAP4va5Q71e/c86cKbm/P8eoAxKKCECjShi4DI7Pk2Uy15wD/d0jn14y8nTKj
+55mp4NiLLbfM6QvXK2kDAPg1/SS3cwE=
+=QIk6
 -----END PGP SIGNATURE-----
