@@ -17,7 +17,7 @@ jobs:
             image: ubuntu:noble
         arch: [amd64, arm64]
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
       - uses: jtdor/build-deb-action@v1
         env:
           DEB_BUILD_OPTIONS: noautodbgsym
@@ -107,3 +107,14 @@ jobs:
             -----END PGP PUBLIC KEY BLOCK-----
           setup-hook:
             apt-get update && apt-get install -y ca-certificates devscripts build-essential
+      - name: Upload
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          cd debian/artifacts
+          _files=($(find . -type f -name 'postgresql-*-oauth-validator*.deb' -printf '%P\n') $(find . -type f -name 'postgresql-*-oauth-validator*.deb' -printf '%P\n'))
+          for _f in ${_files[@]}; do
+            sudo mv "$_f" "${{ matrix.distro.codename }}_$_f";
+            sha256sum "${{ matrix.distro.codename }}_$_f" > "../${{ matrix.distro.codename }}_$_f.sha256"
+          done
+          gh release upload $(sed 's|refs/tags/||' <(echo ${{ github.ref }})) ${_files[@]/#/${{ matrix.distro.codename }}_} ../*.sha256
