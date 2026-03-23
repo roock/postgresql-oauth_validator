@@ -110,7 +110,7 @@ jobs:
       - name: Upload package as artifact
         uses: actions/upload-artifact@v4
         with:
-          name: ${{ matrix.suite }}-${{ matrix.arch }}
+          name: ${{ matrix.distro.codename }}-${{ matrix.arch }}
           path: ./debian/artifacts/*
           retention-days: 1
   commit:
