@@ -98,4 +98,4 @@ jobs:
             =DA1T
             -----END PGP PUBLIC KEY BLOCK-----
           setup-hook:
-            apt-get update && apt-get install -y ca-certificates devscripts build-essential
+            apt-get update && apt-get install -y ca-certificates devscripts build-essential libkrb5-dev
