@@ -1,0 +1,26 @@
+Codename: bookworm
+Suite: testing
+Architectures: amd64 arm64
+Components: main
+SignWith: 0CFF0A4E2E43F6775CA4E881C0CFD31AD2158FD7
+Origin: postgresql-oauth_validator
+Label: postgresql-oauth_validator
+Description: Postgresql oauth validator repository for Debian and Ubuntu
+
+Codename: trixie
+Suite: testing
+Architectures: amd64 arm64
+Components: main
+SignWith: 0CFF0A4E2E43F6775CA4E881C0CFD31AD2158FD7
+Origin: postgresql-oauth_validator
+Label: postgresql-oauth_validator
+Description: Postgresql oauth validator repository for Debian and Ubuntu
+
+Codename: noble
+Suite: testing
+Architectures: amd64 arm64
+Components: main
+SignWith: 0CFF0A4E2E43F6775CA4E881C0CFD31AD2158FD7
+Origin: postgresql-oauth_validator
+Label: postgresql-oauth_validator
+Description: Postgresql oauth validator repository for Debian and Ubuntu
