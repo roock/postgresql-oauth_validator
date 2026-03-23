@@ -109,7 +109,7 @@ jobs:
           setup-hook:
             apt-get update && apt-get install -y ca-certificates devscripts build-essential
       - name: Upload package as artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: ${{ matrix.distro.codename }}-${{ matrix.arch }}
           path: ./debian/artifacts/*
@@ -127,7 +127,7 @@ jobs:
           ref: repo
           path: ./repo
       - name: Get built packages
-        uses: actions/download-artifact@v5
+        uses: actions/download-artifact@v8
       - name: Install reprepro
         run: sudo apt-get update && sudo apt-get -y install reprepro
       - name: Import GPG key
@@ -136,7 +136,7 @@ jobs:
         with:
           gpg_private_key: ${{ secrets.GPG_PRIVATE_KEY }}
       - name: Include packages in repo
-        run: for suite in bookworm noble trixie; do for arch in amd64 arm64; do reprepro --ignore=wrongdistribution -V -P optional -b ./repo include "$suite" "./${suite}-${arch}/"*.changes; done; done
+        run: for suite in bookworm noble trixie; do for arch in amd64 arm64; do reprepro -V -P optional -b ./repo include "$suite" "./${suite}-${arch}/"*.changes; done; done
       - name: Commit changes to repo
         uses: EndBug/add-and-commit@v10
         with:
