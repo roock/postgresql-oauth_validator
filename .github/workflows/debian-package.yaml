@@ -135,7 +135,7 @@ jobs:
         with:
           gpg_private_key: ${{ secrets.GPG_PRIVATE_KEY }}
       - name: Include packages in repo
-        run: for suite in bookworm noble trixie; do for arch in amd64 arm64; do reprepro -V -P optional -b ./repo include "$suite" "./${suite}-${arch}/"*.changes; done; done
+        run: for suite in bookworm noble trixie; do for arch in amd64 arm64; do reprepro --ignore=wrongdistribution -V -P optional -b ./repo include "$suite" "./${suite}-${arch}/"*.changes; done; done
       - name: Commit changes to repo
         uses: EndBug/add-and-commit@v10
         with:
