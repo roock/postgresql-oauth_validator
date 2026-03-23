@@ -23,7 +23,7 @@ jobs:
           DEB_BUILD_OPTIONS: noautodbgsym
         with:
           docker-image: ${{ matrix.distro.image }}          
-          before-build-hook: cd ./prismlauncher && dch -D ${{ matrix.distro.codename }} --bpo ""
+          before-build-hook: dch -D ${{ matrix.distro.codename }} --bpo ""
           buildpackage-opts: --build=binary --no-sign
           host-arch: ${{ matrix.arch }}
           extra-repos: |
