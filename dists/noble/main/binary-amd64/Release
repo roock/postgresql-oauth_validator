@@ -1,0 +1,5 @@
+Component: main
+Origin: postgresql-oauth_validator
+Label: postgresql-oauth_validator
+Architecture: amd64
+Description: Postgresql oauth validator repository for Debian and Ubuntu

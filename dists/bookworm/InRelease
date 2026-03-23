@@ -1,0 +1,39 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Origin: postgresql-oauth_validator
+Label: postgresql-oauth_validator
+Suite: oldstable
+Codename: bookworm
+Date: Mon, 23 Mar 2026 11:42:26 UTC
+Architectures: amd64 arm64
+Components: main
+Description: Postgresql oauth validator repository for Debian and Ubuntu
+MD5Sum:
+ d41d8cd98f00b204e9800998ecf8427e 0 main/binary-amd64/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 main/binary-amd64/Packages.gz
+ ba75b972c379e0910566ae6a45eff937 197 main/binary-amd64/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 main/binary-arm64/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 main/binary-arm64/Packages.gz
+ 7509b30e14abbc138c271584a3027fac 197 main/binary-arm64/Release
+SHA1:
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/binary-amd64/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/binary-amd64/Packages.gz
+ 9eed4f56f13a96b15b89d63f2c775446cc3bead0 197 main/binary-amd64/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/binary-arm64/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/binary-arm64/Packages.gz
+ dc366891d90569ec7519b119edf8145516a41675 197 main/binary-arm64/Release
+SHA256:
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/binary-amd64/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/binary-amd64/Packages.gz
+ 3757945230fa2a63bbfd3ae4e1a9a67ef5375f441b1815ae5c40ce6150bd32ce 197 main/binary-amd64/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/binary-arm64/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/binary-arm64/Packages.gz
+ a05de564d0789c8e50f3eb1b359b9371b9d4c35d19d893248f067e161ef9350e 197 main/binary-arm64/Release
+-----BEGIN PGP SIGNATURE-----
+
+iHUEARYKAB0WIQQM/wpOLkP2d1yk6IHAz9Ma0hWP1wUCacEnIgAKCRDAz9Ma0hWP
+19c/AP9lPfdP6lzu3bme2/ze8x26R3uOFgoVfg6fHSKtoKwYHwEAukISpf3xNV60
+l2FFMwuMJn0m1fmQU+Ztxe8CQ4X7dA0=
+=icC6
+-----END PGP SIGNATURE-----

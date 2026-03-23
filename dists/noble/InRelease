@@ -1,0 +1,38 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Origin: postgresql-oauth_validator
+Label: postgresql-oauth_validator
+Codename: noble
+Date: Mon, 23 Mar 2026 11:42:26 UTC
+Architectures: amd64 arm64
+Components: main
+Description: Postgresql oauth validator repository for Debian and Ubuntu
+MD5Sum:
+ d41d8cd98f00b204e9800998ecf8427e 0 main/binary-amd64/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 main/binary-amd64/Packages.gz
+ b252e0c8261e3444c58b5661481bede0 178 main/binary-amd64/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 main/binary-arm64/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 main/binary-arm64/Packages.gz
+ 006e43c9d646ba07fd4ffc157c7c2377 178 main/binary-arm64/Release
+SHA1:
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/binary-amd64/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/binary-amd64/Packages.gz
+ 3e3cb7ecdf69c55696d1655b38b09f1a414231bb 178 main/binary-amd64/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/binary-arm64/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/binary-arm64/Packages.gz
+ 0c21a5548e5b1259d7b6cab8008ff107ef997a83 178 main/binary-arm64/Release
+SHA256:
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/binary-amd64/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/binary-amd64/Packages.gz
+ 6fa30b38bc9ec5db6dbd75b2c8a57aa0e9bb5efd1b2f15211d73a4667f8cafe8 178 main/binary-amd64/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/binary-arm64/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/binary-arm64/Packages.gz
+ 15d08a182f0e33a2ab57f0687bb18b63d61cf651afc4074989a2007cb6b7dd78 178 main/binary-arm64/Release
+-----BEGIN PGP SIGNATURE-----
+
+iHUEARYKAB0WIQQM/wpOLkP2d1yk6IHAz9Ma0hWP1wUCacEnIgAKCRDAz9Ma0hWP
+13V8AP964UoUTogtGW5/OrwOcyglr11pVr+p6vDfQrUhJXyl4wEAmOzUbu7llGvo
+4roRwm7jTamNIjNXcwYATdR24UQfbw8=
+=N5JR
+-----END PGP SIGNATURE-----
