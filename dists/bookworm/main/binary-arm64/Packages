@@ -1,6 +1,6 @@
 Package: postgresql-18-oauth-validator
 Source: postgresql-oauth-validator
-Version: 1.0-1~bookworm1
+Version: 1.0-1~bookworm+gitdd04c83ce19daa99a4116176ad38c7ccd3f78a0d1
 Architecture: arm64
 Maintainer: Roman Pertl <roman@pertl.org>
 Installed-Size: 98
@@ -8,11 +8,11 @@ Depends: postgresql-18, libc6 (>= 2.17)
 Homepage: https://github.com/roock/postgresql-oauth_validator
 Priority: optional
 Section: database
-Filename: pool/main/p/postgresql-oauth-validator/postgresql-18-oauth-validator_1.0-1~bookworm1_arm64.deb
-Size: 14364
-SHA256: bfd7587cc1212522c7b09c5bb4f1fb52319c4763996fbac166927c929f486652
-SHA1: 9b86f8502fae53a9b0a3c03ee55d51388a25a453
-MD5sum: 7bffcb06e32655005bddc42bbe55c7fb
+Filename: pool/main/p/postgresql-oauth-validator/postgresql-18-oauth-validator_1.0-1~bookworm+gitdd04c83ce19daa99a4116176ad38c7ccd3f78a0d1_arm64.deb
+Size: 14428
+SHA256: bb970c30f4afd09ea99af0c5651666959222396402ef4faa2e02a38d67c6cc88
+SHA1: 0cace3e0c0d0b1b36a7704dd411ef39c2c041dea
+MD5sum: 6b03dbd00ba14653c0a5caf859261302
 Description: OAuth 2.0 token validator for PostgreSQL
  This module implements a simple OAuth 2.0 token validator for built-in
  support of the Device Authorization Flow. The validator performs minimal

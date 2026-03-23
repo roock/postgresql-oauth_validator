@@ -5,35 +5,35 @@ Origin: postgresql-oauth_validator
 Label: postgresql-oauth_validator
 Suite: oldstable
 Codename: bookworm
-Date: Mon, 23 Mar 2026 12:33:22 UTC
+Date: Mon, 23 Mar 2026 13:02:45 UTC
 Architectures: amd64 arm64
 Components: main
 Description: Postgresql oauth validator repository for Debian and Ubuntu
 MD5Sum:
- 12ffb97f0e238a39aba311ec0497b99f 1048 main/binary-amd64/Packages
- 0eb52b8d433f879b08f0b21404ea77a8 635 main/binary-amd64/Packages.gz
+ c0134c71a830735e53fa60eef7e84e80 1136 main/binary-amd64/Packages
+ ade85431e6afa1c64ec59ac8b6af2651 668 main/binary-amd64/Packages.gz
  ba75b972c379e0910566ae6a45eff937 197 main/binary-amd64/Release
- c84b68841dee510c048f974c3d1a12c8 1049 main/binary-arm64/Packages
- cf1c5eeedd7c5d2a7c0c039fcb66170a 637 main/binary-arm64/Packages.gz
+ cb847387fbd5987a9fb30385121e6d12 1137 main/binary-arm64/Packages
+ 964513860aeda0e339748afa6035b209 667 main/binary-arm64/Packages.gz
  7509b30e14abbc138c271584a3027fac 197 main/binary-arm64/Release
 SHA1:
- 30880db3909615a779c0b7469b4c49314d698fe3 1048 main/binary-amd64/Packages
- 235c79cf0413d6123bcee6a4ad9bf30df55adc5a 635 main/binary-amd64/Packages.gz
+ 8de0630f4b2a0ecefab423d9551b26510ff98d37 1136 main/binary-amd64/Packages
+ 96a95e2a2b3e05e2e233583ac9c98d759e110a29 668 main/binary-amd64/Packages.gz
  9eed4f56f13a96b15b89d63f2c775446cc3bead0 197 main/binary-amd64/Release
- ba70f4b0858c980950ad7cc72eed0c52cf568ed5 1049 main/binary-arm64/Packages
- 2f2a2775d489cecc1675c9142b8e4658b0795ea9 637 main/binary-arm64/Packages.gz
+ d1ed74d053f08af14794b6d39a6a77e0ae9156d5 1137 main/binary-arm64/Packages
+ 650cb47b40dd6ebe7ea8546e61c6257bd5be7885 667 main/binary-arm64/Packages.gz
  dc366891d90569ec7519b119edf8145516a41675 197 main/binary-arm64/Release
 SHA256:
- 647db6d939e0b3267316a3e83906a8536c05817b639a825d677fed42189ef648 1048 main/binary-amd64/Packages
- 3775fe74cd56128a360863430873ac3417604f949b9738b2d8677b8d9e4d017d 635 main/binary-amd64/Packages.gz
+ 3bee5e9f799a5c3c873c40ae1a5bc2eedbc28ec74535c48083b962cc93ae9689 1136 main/binary-amd64/Packages
+ d8b36fddaadf2a577ef9000d399eb9a6e82775d3637bc9735b1d1a04706d3b8f 668 main/binary-amd64/Packages.gz
  3757945230fa2a63bbfd3ae4e1a9a67ef5375f441b1815ae5c40ce6150bd32ce 197 main/binary-amd64/Release
- 3b7736a140bd6dd70389f4224b205f17326bcd267a85b6f6c856f25039115bc4 1049 main/binary-arm64/Packages
- 713a765ad22a0bb67d92391b55a25fff0656f45da5e48528f7309647c9afe55c 637 main/binary-arm64/Packages.gz
+ 7ad1b83db4e662befa3fc04059cfc4103992c16df9d82f11fa56e9295350e54c 1137 main/binary-arm64/Packages
+ cc4bf12695354e150d62aac4b863c383b0635778ef7a9cdeb7f1d4d283df0ada 667 main/binary-arm64/Packages.gz
  a05de564d0789c8e50f3eb1b359b9371b9d4c35d19d893248f067e161ef9350e 197 main/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYKAB0WIQQM/wpOLkP2d1yk6IHAz9Ma0hWP1wUCacEzEgAKCRDAz9Ma0hWP
-160GAP94pia/+2LhetHCU9/3VP2anAJhpNKFmFD66eJEOJ+96gD9ELdYri4OM9B3
-YAKSO9wA5O1dy3wMbfTK55F8YUxM9gQ=
-=7Amm
+iHUEARYKAB0WIQQM/wpOLkP2d1yk6IHAz9Ma0hWP1wUCacE59QAKCRDAz9Ma0hWP
+1yRFAP9/wqJLq/3yklIa/8zZaePb7mgEPaEzvJ+AQGkIvzYsjQEAqJOtExNTsFQE
+wW3zeBjGG7k5EAFnS6j7LvTXwdIDRwc=
+=63L1
 -----END PGP SIGNATURE-----

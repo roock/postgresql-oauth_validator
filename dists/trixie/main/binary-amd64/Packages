@@ -1,6 +1,6 @@
 Package: postgresql-18-oauth-validator
 Source: postgresql-oauth-validator
-Version: 1.0-1~trixie1
+Version: 1.0-1~trixie+gitdd04c83ce19daa99a4116176ad38c7ccd3f78a0d1
 Architecture: amd64
 Maintainer: Roman Pertl <roman@pertl.org>
 Installed-Size: 46
@@ -8,11 +8,11 @@ Depends: postgresql-18, libc6 (>= 2.4)
 Homepage: https://github.com/roock/postgresql-oauth_validator
 Priority: optional
 Section: database
-Filename: pool/main/p/postgresql-oauth-validator/postgresql-18-oauth-validator_1.0-1~trixie1_amd64.deb
-Size: 14668
-SHA256: 0f8c0d1d52b51a774ed824fec274ca77da5400aed2af1684ea4753d9c47f1730
-SHA1: 0388031048d85d05b3a1112a00157c3a2f8d3768
-MD5sum: 720bdb15e486cec08a0c9e27c65e5128
+Filename: pool/main/p/postgresql-oauth-validator/postgresql-18-oauth-validator_1.0-1~trixie+gitdd04c83ce19daa99a4116176ad38c7ccd3f78a0d1_amd64.deb
+Size: 14716
+SHA256: 401be5bdc579b8fe572a74367060dfff86572c159cb9848a006846feecc64bf8
+SHA1: 2ef267fdd8b8c1b768e6a8f58b9c78367494d15c
+MD5sum: c38e66f7c3fa344bde16aa34ccb8cf1f
 Description: OAuth 2.0 token validator for PostgreSQL
  This module implements a simple OAuth 2.0 token validator for built-in
  support of the Device Authorization Flow. The validator performs minimal
