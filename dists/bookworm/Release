@@ -2,28 +2,28 @@ Origin: postgresql-oauth_validator
 Label: postgresql-oauth_validator
 Suite: oldstable
 Codename: bookworm
-Date: Mon, 23 Mar 2026 13:02:45 UTC
+Date: Thu, 18 Jun 2026 11:52:31 UTC
 Architectures: amd64 arm64
 Components: main
 Description: Postgresql oauth validator repository for Debian and Ubuntu
 MD5Sum:
- c0134c71a830735e53fa60eef7e84e80 1136 main/binary-amd64/Packages
- ade85431e6afa1c64ec59ac8b6af2651 668 main/binary-amd64/Packages.gz
+ 993fb5de70c5a9d29096698e2235b513 1136 main/binary-amd64/Packages
+ 028cbeac268a893981e3e10675af617e 668 main/binary-amd64/Packages.gz
  ba75b972c379e0910566ae6a45eff937 197 main/binary-amd64/Release
- cb847387fbd5987a9fb30385121e6d12 1137 main/binary-arm64/Packages
- 964513860aeda0e339748afa6035b209 667 main/binary-arm64/Packages.gz
+ f159a4aefd6c7b286052eaa6ffe5bff2 1137 main/binary-arm64/Packages
+ 7e1c2ab47eb2973143eb123e11f548de 669 main/binary-arm64/Packages.gz
  7509b30e14abbc138c271584a3027fac 197 main/binary-arm64/Release
 SHA1:
- 8de0630f4b2a0ecefab423d9551b26510ff98d37 1136 main/binary-amd64/Packages
- 96a95e2a2b3e05e2e233583ac9c98d759e110a29 668 main/binary-amd64/Packages.gz
+ 611c56cbf39a825350a14c6d7752990d81aec3e7 1136 main/binary-amd64/Packages
+ ea071dd3ad2b2aeea3e51ff29163ed4879be19c9 668 main/binary-amd64/Packages.gz
  9eed4f56f13a96b15b89d63f2c775446cc3bead0 197 main/binary-amd64/Release
- d1ed74d053f08af14794b6d39a6a77e0ae9156d5 1137 main/binary-arm64/Packages
- 650cb47b40dd6ebe7ea8546e61c6257bd5be7885 667 main/binary-arm64/Packages.gz
+ efc821b442b26178c12c7ab18e26343fba25619a 1137 main/binary-arm64/Packages
+ c21b88087bf928c3ebcfb98371069fb0cf7df989 669 main/binary-arm64/Packages.gz
  dc366891d90569ec7519b119edf8145516a41675 197 main/binary-arm64/Release
 SHA256:
- 3bee5e9f799a5c3c873c40ae1a5bc2eedbc28ec74535c48083b962cc93ae9689 1136 main/binary-amd64/Packages
- d8b36fddaadf2a577ef9000d399eb9a6e82775d3637bc9735b1d1a04706d3b8f 668 main/binary-amd64/Packages.gz
+ 4c93464b989e485508c8c02232bf0e4053b35800ff925faea65baf5bf6cc1cfc 1136 main/binary-amd64/Packages
+ aa31de6cb2c63e0f50a333e29b47d14f652ab3655fe88cb8e67447c673c03cf5 668 main/binary-amd64/Packages.gz
  3757945230fa2a63bbfd3ae4e1a9a67ef5375f441b1815ae5c40ce6150bd32ce 197 main/binary-amd64/Release
- 7ad1b83db4e662befa3fc04059cfc4103992c16df9d82f11fa56e9295350e54c 1137 main/binary-arm64/Packages
- cc4bf12695354e150d62aac4b863c383b0635778ef7a9cdeb7f1d4d283df0ada 667 main/binary-arm64/Packages.gz
+ 3d142c788ffab62e89d667afa1a715eb73cbbc22db2ecf9be458264b331a011e 1137 main/binary-arm64/Packages
+ dc076b69a5c74876698ab4f4c101cbbf5623ed54c0be573000a224e150c99e4e 669 main/binary-arm64/Packages.gz
  a05de564d0789c8e50f3eb1b359b9371b9d4c35d19d893248f067e161ef9350e 197 main/binary-arm64/Release
