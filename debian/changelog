@@ -1,3 +1,9 @@
+postgresql-oauth-validator (1.0-2) unstable; urgency=medium
+
+  * rebuild
+
+ -- Roman Pertl <roman@pertl.org>  Fri, 20 Mar 2026 15:57:00 +0200
+
 postgresql-oauth-validator (1.0-1) unstable; urgency=medium
 
   * Initial release
